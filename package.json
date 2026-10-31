@@ -1,0 +1,19 @@
+{
+  "name": "layla-mcp-search",
+  "version": "2.4.0",
+  "description": "MCP server for Layla / AI Edge: web search, news, page reading, and GitHub read/write (safe branch)",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "check": "node --check index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.0",
+    "express": "^4.21.1"
+  },
+  "license": "MIT"
+}
